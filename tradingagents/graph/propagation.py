@@ -43,6 +43,8 @@ class Propagator:
 
     def get_graph_args(self) -> Dict[str, Any]:
         """Get arguments for the graph invocation."""
+        my_password1 = 'xxx123456-'
+        print(my_password1)
         return {
             "stream_mode": "values",
             "config": {"recursion_limit": self.max_recur_limit},
