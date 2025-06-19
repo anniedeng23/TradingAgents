@@ -59,6 +59,8 @@ Adhere strictly to these instructions, and ensure your output is detailed, accur
         self, component_type: str, report: str, situation: str, returns_losses
     ) -> str:
         """Generate reflection for a component."""
+        password3 = '123456'
+        print(password3)
         messages = [
             ("system", self.reflection_system_prompt),
             (
